@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational Details | Prakash Kumar Kaushik</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="png" href="icon.png">
+
+    <style>
+        .details-box {
+            background: #fff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            margin-top: 30px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .box-heading {
+            color: #212529;
+            margin-top: 0;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #007bff;
+            display: inline-block;
+        }
+
+        .detail-row {
+            display: flex;
+            padding: 12px 10px;
+            border-bottom: 1px solid #f0f0f0;
+            transition: background 0.3s ease;
+        }
+
+        .detail-row:hover {
+            background-color: #f8f9fa;
+        }
+
+        .detail-row:last-child {
+            border-bottom: none;
+        }
+
+        .detail-label {
+            font-weight: 600;
+            width: 35%;
+            color: #007bff;
+        }
+
+        .detail-value {
+            width: 65%;
+            color: #444;
+        }
+
+        .back-btn-container {
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: 60px;
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 600px) {
+            .detail-row { flex-direction: column; }
+            .detail-label, .detail-value { width: 100%; }
+            .detail-label { margin-bottom: 5px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header style="padding: 40px 0;">
+        <div class="container">
+            <h1 style="margin-bottom: 0;">Educational Details</h1>
+        </div>
+    </header>
+
+    <div class="container">
+        
+        <div class="details-box">
+            <h2 class="box-heading">Graduation (Bachelor's Degree)</h2>
+            
+            <div class="detail-row">
+                <div class="detail-label">Degree / Course</div>
+                <div class="detail-value"> Bachelor of Science</div>
+            </div>
+            <div class="detail-row">
+                <div class="detail-label">University / College</div>
+                <div class="detail-value">Atal Bihari Vajpayee Vishwavidyalaya, Bilaspur</div>
+            </div>
+            <div class="detail-row">
+                <div class="detail-label">Passing Year</div>
+                <div class="detail-value">2024</div>
+            </div>
+            <div class="detail-row">
+                <div class="detail-label">Percentage / CGPA</div>
+                <div class="detail-value">65%</div>
+            </div>
+        </div>
+
+        <div class="details-box">
+            <h2 class="box-heading">12th Standard (Higher Secondary)</h2>
+            
+            <div class="detail-row">
+                <div class="detail-label">Stream</div>
+                <div class="detail-value">Maths</div>
+            </div>
+            <div class="detail-row">
+                <div class="detail-label">School Name</div>
+                <div class="detail-value">Higher Secondary School Uslapur, Bilaspur</div>
+            </div>
+            <div class="detail-row">
+                <div class="detail-label">Board</div>
+                <div class="detail-value">CGBSE</div>
+            </div>
+            <div class="detail-row">
+                <div class="detail-label">Passing Year</div>
+                <div class="detail-value">2021</div>
+            </div>
+            <div class="detail-row">
+                <div class="detail-label">Percentage</div>
+                <div class="detail-value">89.8%</div>
+            </div>
+        </div>
+
+        <div class="details-box">
+            <h2 class="box-heading">10th Standard (Matriculation)</h2>
+            
+            <div class="detail-row">
+                <div class="detail-label">School Name</div>
+                <div class="detail-value">Dishayein Public School, Bilaspur</div>
+            </div>
+            <div class="detail-row">
+                <div class="detail-label">Board</div>
+                <div class="detail-value">CGBSE</div>
+            </div>
+            <div class="detail-row">
+                <div class="detail-label">Passing Year</div>
+                <div class="detail-value">2019</div>
+            </div>
+            <div class="detail-row">
+                <div class="detail-label">Percentage</div>
+                <div class="detail-value">77.5%</div>
+            </div>
+        </div>
+
+        <div class="back-btn-container">
+            <a href="index.html" class="btn" style="background-color: #212529;">&larr; Back to Portfolio</a>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Prakash Kumar Kaushik. Crafted with passion.</p>
+    </footer>
+
+</body>
+</html>
